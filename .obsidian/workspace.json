@@ -11,14 +11,13 @@
             "id": "9a4396ba08af8fa9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "进程.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 1.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "进程"
+              "icon": "lucide-table",
+              "title": "未命名 1"
             }
           }
         ]
@@ -187,6 +186,8 @@
   },
   "active": "9a4396ba08af8fa9",
   "lastOpenFiles": [
+    "进程.md",
+    "未命名 1.base",
     "串行.md",
     "2026-04-07.md",
     "未命名.base",
@@ -206,11 +207,9 @@
     "网络",
     "阻塞.md",
     "线程.md",
-    "进程.md",
     "多进程.md",
     "网络编程",
     "创建链接.md",
-    "未命名 1.base",
     "第二篇笔记.md",
     "2026-03-27.md",
     "算法.md",

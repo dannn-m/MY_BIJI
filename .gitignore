@@ -1,0 +1,9 @@
+# Obsidian 缓存
+.obsidian/workspace
+.obsidian/cache
+.obsidian/plugins
+.obsidian/snippets
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
