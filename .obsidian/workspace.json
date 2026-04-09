@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "d6f99ecec542da88",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac94ce55f194f06e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a4396ba08af8fa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "进程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "进程"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eae06afdc348186d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d375ba723d4b25e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fe2c30ea66a480b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6c602a0230cfd472",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "7696154555dd1cd9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0ed7d4f4cd5048fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5bb18ba8d669ce5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4288ac205522fe17",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "网络编程/socket.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "socket 的反向链接列表"
+            }
+          },
+          {
+            "id": "7bb15536e1fb33b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "网络编程/socket.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "socket 的出链列表"
+            }
+          },
+          {
+            "id": "db7c25f4f2753e29",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "61b2bb88fba4a6f4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "61a95ddede0a1125",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "网络/vlan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "vlan 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "9a4396ba08af8fa9",
+  "lastOpenFiles": [
+    "串行.md",
+    "2026-04-07.md",
+    "未命名.base",
+    "网络/vlan.md",
+    "Pasted image 20260408091239.png",
+    "Pasted image 20260407190418.png",
+    "Pasted image 20260407183944.png",
+    "VLAN 子配置模式.md",
+    "exit.md",
+    "Pasted image 20260407174842.png",
+    "未命名.canvas",
+    "网络/ospf.md",
+    "关于osidian.md",
+    "聊天系统.md",
+    "网络编程/socket.md",
+    "ospf.md",
+    "网络",
+    "阻塞.md",
+    "线程.md",
+    "进程.md",
+    "多进程.md",
+    "网络编程",
+    "创建链接.md",
+    "未命名 1.base",
+    "第二篇笔记.md",
+    "2026-03-27.md",
+    "算法.md",
+    "欢迎.md"
+  ]
+}
