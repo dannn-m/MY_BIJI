@@ -11,10 +11,13 @@
             "id": "6652b66c858f03f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "bases",
+              "state": {
+                "file": "未命名.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -174,6 +177,10 @@
   },
   "active": "e020426a0580d6fc",
   "lastOpenFiles": [
+    "未命名 1.base",
+    "未命名.base",
+    "未命名.canvas",
+    "未命名 1.canvas",
     "Pasted image 20260407174842.png",
     "网络/ospf.md"
   ]
