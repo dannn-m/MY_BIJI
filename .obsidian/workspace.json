@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "未命名 1.base",
+                "file": "未命名.base",
                 "viewName": "表格"
               },
               "icon": "lucide-table",
-              "title": "未命名 1"
+              "title": "未命名"
             }
           }
         ]
@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -186,8 +187,9 @@
   },
   "active": "9a4396ba08af8fa9",
   "lastOpenFiles": [
-    "进程.md",
+    "未命名.canvas",
     "未命名 1.base",
+    "进程.md",
     "串行.md",
     "2026-04-07.md",
     "未命名.base",
@@ -198,7 +200,6 @@
     "VLAN 子配置模式.md",
     "exit.md",
     "Pasted image 20260407174842.png",
-    "未命名.canvas",
     "网络/ospf.md",
     "关于osidian.md",
     "聊天系统.md",
