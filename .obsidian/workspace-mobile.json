@@ -11,13 +11,14 @@
             "id": "6652b66c858f03f9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名.base",
-                "viewName": "表格"
+                "file": "网络/vlan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "vlan"
             }
           }
         ]
@@ -177,8 +178,8 @@
   },
   "active": "6652b66c858f03f9",
   "lastOpenFiles": [
-    "网络/vlan.md",
     "未命名.base",
+    "网络/vlan.md",
     "网络/ospf.md",
     "未命名 1.base",
     "未命名.canvas",

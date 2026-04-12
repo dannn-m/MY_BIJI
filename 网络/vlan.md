@@ -8,7 +8,7 @@ date:
 - 一个接口只能划分给一个vlan但是端口却再可以与语音关联
 使用 **switchport voice vlan** _vlan-id_ 接口配置命令把一个语音 VLAN 分配给端口。
 
-支持语音流量的 LAN 一般都会启用服务质量 （QoS）。语音流量在进入网络时就必须标记为可信任。使用 **mls qos trust [cos | device cisco-phone | dscp | ip-precedence]** 接口配置命令设置接口的可信状态，并指示数据包中的哪些字段会用来对流量进行分类。
+支持语音流量的 LAN 一般都会启用服务质量 （QoS）。语音流量在进入网络时就必须标记为可信任。使用 **mls qos trust \[cos | device cisco-phone | dscp | ip-precedence]** 接口配置命令设置接口的可信状态，并指示数据包中的哪些字段会用来对流量进行分类。
 
 示例中的配置会创建出两个 VLAN （即 VLAN 20 和 VLAN 150），然后将 S3 的 F0/18 接口作为交换机端口划分到 VLAN 20 中。还将语音流量分配给 VLAN 150，并根据 IP 电话分配的服务类别 (CoS) 启用 QoS 分类。
 
