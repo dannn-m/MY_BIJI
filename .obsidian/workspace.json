@@ -11,14 +11,13 @@
             "id": "9a4396ba08af8fa9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "网络/ospf.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 3.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "ospf"
+              "icon": "lucide-table",
+              "title": "未命名 3"
             }
           }
         ]
@@ -182,18 +181,21 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "7696154555dd1cd9",
   "lastOpenFiles": [
+    "未命名 1.base",
+    "未命名.canvas",
+    "未命名.base",
+    "网络/ospf.md",
     "未命名 3.base",
     "未命名 2.base",
-    "未命名 1.base",
     "进程.md",
     "串行.md",
     "2026-04-07.md",
-    "未命名.base",
     "网络/vlan.md",
     "Pasted image 20260408091239.png",
     "Pasted image 20260407190418.png",
@@ -201,8 +203,6 @@
     "VLAN 子配置模式.md",
     "exit.md",
     "Pasted image 20260407174842.png",
-    "未命名.canvas",
-    "网络/ospf.md",
     "关于osidian.md",
     "聊天系统.md",
     "网络编程/socket.md",
