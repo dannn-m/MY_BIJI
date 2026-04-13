@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络/ospf.md",
+                "file": "网络/vlan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ospf"
+              "title": "vlan"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "9a4396ba08af8fa9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "网络/ospf.md",
+    "conflict-files-obsidian-git.md",
     "exit.md",
     "ospf.md",
     "未命名.canvas",
