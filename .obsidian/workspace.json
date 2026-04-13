@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络/stp.md",
+                "file": "2026-04-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stp"
+              "title": "2026-04-07"
             }
           }
         ]
@@ -186,10 +186,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a4396ba08af8fa9",
+  "active": "7696154555dd1cd9",
   "lastOpenFiles": [
-    "内部根路径开销.md",
     "网络/stp.md",
+    "Pasted image 20260413155334.png",
+    "内部根路径开销.md",
     "Pasted image 20260413151500.png",
     "Pasted image 20260413143241.png",
     "关于osidian.md",
