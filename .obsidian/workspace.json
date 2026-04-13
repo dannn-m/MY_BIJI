@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络/vlan.md",
+                "file": "网络/stp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "vlan 的大纲"
+              "title": "stp 的大纲"
             }
           }
         ],
@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
