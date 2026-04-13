@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络/vlan.md",
+                "file": "关于osidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vlan"
+              "title": "关于osidian"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "9a4396ba08af8fa9",
   "lastOpenFiles": [
+    "网络/vlan.md",
     "网络/ospf.md",
     "conflict-files-obsidian-git.md",
     "exit.md",
@@ -200,7 +201,6 @@
     "进程.md",
     "串行.md",
     "2026-04-07.md",
-    "网络/vlan.md",
     "Pasted image 20260408091239.png",
     "Pasted image 20260407190418.png",
     "Pasted image 20260407183944.png",
