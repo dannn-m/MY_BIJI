@@ -11,13 +11,14 @@
             "id": "9a4396ba08af8fa9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名 3.base",
-                "viewName": "表格"
+                "file": "网络/ospf.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名 3"
+              "icon": "lucide-file",
+              "title": "ospf"
             }
           }
         ]
@@ -185,13 +186,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7696154555dd1cd9",
+  "active": "9a4396ba08af8fa9",
   "lastOpenFiles": [
-    "未命名 1.base",
+    "exit.md",
+    "ospf.md",
     "未命名.canvas",
+    "未命名 3.base",
+    "未命名 1.base",
     "未命名.base",
     "网络/ospf.md",
-    "未命名 3.base",
     "未命名 2.base",
     "进程.md",
     "串行.md",
@@ -201,12 +204,10 @@
     "Pasted image 20260407190418.png",
     "Pasted image 20260407183944.png",
     "VLAN 子配置模式.md",
-    "exit.md",
     "Pasted image 20260407174842.png",
     "关于osidian.md",
     "聊天系统.md",
     "网络编程/socket.md",
-    "ospf.md",
     "网络",
     "阻塞.md",
     "线程.md",
