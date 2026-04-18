@@ -81,5 +81,5 @@ R1#
 ## 2、禁用思科IOS DHCPv4服务器
 ```
 no service dhcp #禁用服务器
-seri
+service dhcp #启用服务器
 ```
