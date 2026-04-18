@@ -41,3 +41,4 @@ Router(config)# ip dhcp pool _pool-name_
 Router(dhcp-config)#
 ```
 ### iii、配置地址池
+
