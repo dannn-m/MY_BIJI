@@ -86,7 +86,11 @@ service dhcp #启用服务器
 ## 3、DHCPv4中继
 有时客户端与dhcp服务器不在一个网段，可以配置dhcp中继，由中继将消息转发给服务器
 ![[Pasted image 20260418125141.png]]
-
+- ipconfig /release                  释放当前客户机的IPv4编址信息
+- ipconfig /renew                    更新ipv4编址信息，此命令使pc广播DHCPDISCOVER
+- ip helper-address _address_    用于配置中继
+- show ip interface                  验证
+- ipconfig /all                          验证
 
 ## 4、配置客户端
 有些场景下可以将路由器配置为dhcp客户端
