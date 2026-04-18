@@ -83,3 +83,4 @@ R1#
 no service dhcp #禁用服务器
 service dhcp #启用服务器
 ```
+## 2、配置客户端
