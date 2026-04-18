@@ -50,3 +50,25 @@ Router(dhcp-config)#
 | 定义域名。                | `domain-name domain`                               |
 | 定义 DHCP 租期的持续时间。     | `lease {days [hours [ minutes]]infinite}`          |
 | 定义 NetBIOS WINS 服务器。 | `netbios-name-server address [ address2…address8]` |
+### iiii、示例
+![[Pasted image 20260418101533.png]]
+```
+R1(config)# ip dhcp excluded-address 192.168.10.1 192.168.10.9
+
+R1(config)# ip dhcp excluded-address 192.168.10.254
+
+R1(config)# ip dhcp pool LAN-POOL-1
+
+R1(dhcp-config)# network 192.168.10.0 255.255.255.0
+
+R1(dhcp-config)# default-router 192.168.10.1
+
+R1(dhcp-config)# dns-server 192.168.11.5
+
+R1(dhcp-config)# domain-name example.com
+
+R1(dhcp-config)# end
+
+R1#
+```
+### v、验证命令
