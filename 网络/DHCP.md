@@ -79,3 +79,7 @@ R1#
 | `show ip dhcp server statistics`      | 显示关于已发送和接收的 DHCPv4 消息的数量信息。                |
 | `ipconfig /all`                       | 显示 TCP/IP 参数                               |
 ## 2、禁用思科IOS DHCPv4服务器
+```
+no service dhcp #禁用服务器
+seri
+```
