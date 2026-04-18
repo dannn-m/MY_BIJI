@@ -84,7 +84,7 @@ no service dhcp #禁用服务器
 service dhcp #启用服务器
 ```
 ## 3、DHCPv4中继
-有时ke'hu'd
+有时客户端与dhcp服务器不在一个网段，可以配置dhcp中继
 
 ## 4、配置客户端
 有些场景下可以将路由器配置为dhcp客户端
