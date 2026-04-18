@@ -42,11 +42,11 @@ Router(dhcp-config)#
 ```
 ### iii、配置地址池
 
-| 任务                   | IOS 命令                                             |                   |
-| -------------------- | -------------------------------------------------- | ----------------- |
-| 定义地址池。               | `network network-number [mask                      | / prefix-length]` |
-| 定义默认路由器或网关。          | `default-router address [ address2…address8]`      |                   |
-| 定义 DNS 服务器。          | `dns-server address [ address2…address8]`          |                   |
-| 定义域名。                | `domain-name domain`                               |                   |
-| 定义 DHCP 租期的持续时间。     | `lease {days [hours [ minutes]]                    | infinite}`        |
-| 定义 NetBIOS WINS 服务器。 | `netbios-name-server address [ address2…address8]` |                   |
+| 任务                   | IOS 命令                                             |
+| -------------------- | -------------------------------------------------- |
+| 定义地址池。               | `network network-number [mask/ prefix-length]`     |
+| 定义默认路由器或网关。          | `default-router address [ address2…address8]`      |
+| 定义 DNS 服务器。          | `dns-server address [ address2…address8]`          |
+| 定义域名。                | `domain-name domain`                               |
+| 定义 DHCP 租期的持续时间。     | `lease {days [hours [ minutes]]infinite}`          |
+| 定义 NetBIOS WINS 服务器。 | `netbios-name-server address [ address2…address8]` |
