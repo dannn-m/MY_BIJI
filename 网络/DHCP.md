@@ -77,3 +77,4 @@ R1#
 | `show running-config \| section dhcp` | 显示路由器上配置的 DHCPv4 相关命令。                     |
 | `show ip dhcp binding`                | 显示所有由 DHCPv4 服务提供的 IPv4 地址与 MAC 地址绑定关系的列表。 |
 | `show ip dhcp server statistics`      | 显示关于已发送和接收的 DHCPv4 消息的数量信息。                |
+| `ipconfig /all`                       |                                            |
