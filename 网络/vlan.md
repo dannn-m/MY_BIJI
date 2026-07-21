@@ -150,7 +150,8 @@ S2(config-if)# **end**
 R1(config)# interface G0/0/1.10
 R1(config-subif)# description Default Gateway for VLAN 10   #此句为注释语句语法为discription 描述内容
 R1(config-subif)# encapsulation dot1Q 10
-R1(config-subif)# ip add 192.168.10.1 255.255.255.0R1(config-subif)# exit
+R1(config-subif)# ip add 192.168.10.1 255.255.255.0
+R1(config-subif)# exit
 R1(config)#
 R1(config)# interface G0/0/1.20
 R1(config-subif)# description Default Gateway for VLAN 20
