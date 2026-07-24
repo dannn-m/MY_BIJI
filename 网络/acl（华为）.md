@@ -33,17 +33,17 @@
 
 ### 1. 基本 ACL（basic）仅匹配【源IP】
 
-`rule {permit|deny} source {网段 反掩码 | host 单IP}`
+`rule [ rule-id ] {permit|deny} source {网段 反掩码 | host 单IP}`
 
 ### 2. 高级 ACL（advanced）匹配【源目IP/协议/端口】
 
-`rule {permit|deny} {tcp|udp|icmp|ip} source 源 反掩码 destination 目的 反掩码 [eq 端口号]`
+`rule [ rule-id ] {permit|deny} {tcp|udp|icmp|ip} source 源 反掩码 destination 目的 反掩码 [eq 端口号]`
 
 说明：`ip` = 所有IP协议；端口为可选
 
 ### 3. 二层 ACL（link）匹配【MAC地址】
 
-`rule {permit|deny} source-mac MAC地址 MAC掩码`
+`rule [ rule-id ] {permit|deny} source-mac MAC地址 MAC掩码`
 
 ---
 
