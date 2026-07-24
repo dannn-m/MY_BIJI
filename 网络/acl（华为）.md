@@ -5,7 +5,7 @@
 
 ### 1. 编号 ACL
 
-`acl number 编号`
+`acl [number] 编号`
 
 - **基本ACL**：2000–2999
     
