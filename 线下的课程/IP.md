@@ -80,3 +80,10 @@ interface GigabitEthernet0/0/1
 	- 动静结合
 	- 两个方案：ip+mac +端口
 ## GVRP
+- garp：通用属性注册协议（本身是一个协议框架）
+	- gvrp：通用vlan注册协议
+	- gmrp（multicast registration）
+作用：动态学习vl不需要在在每个交换机创建
+ dis gvrp status
+ dis gvrp int g0/0/0
+ 
