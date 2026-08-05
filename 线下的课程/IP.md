@@ -68,3 +68,5 @@ interface GigabitEthernet0/0/1
 5 在接口上启用Mux VLAN功能
 [Huawei-GigabitEthernet0/0/1]port mux-vlan enable
 ~~~
+---
+## supervlan
