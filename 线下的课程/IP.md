@@ -75,4 +75,7 @@ interface GigabitEthernet0/0/1
 - 给supervl的三层口配置一个ip。
 
 ## 动态vlan
-- 可以选择配置基于mac、ip、协议的vlan
+- 可以选择配置基于mac、ip、协议、策略
+- 策略：
+	- 动静结合
+	- 两个方案：ip+mac 
