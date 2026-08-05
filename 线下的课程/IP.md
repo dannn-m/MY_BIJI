@@ -70,4 +70,5 @@ interface GigabitEthernet0/0/1
 ~~~
 ---
 ## supervlan
-基于同网段但是不同的vl的需求需要
+基于同网段相同但是vl不同的需求，需要设置一个supervlan
+在supervl中视图中将子vl划入其中，给supervl的三层口启动一个
