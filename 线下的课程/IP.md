@@ -54,3 +54,17 @@ ospf是基于区域内的链路状态路由协议，区域内的链路状态应�
 - vlan可以配置主从vlan
 - 从vl间分为互通型子vl（vl内主机可互通）与隔离型子vl（反之）
 - 子vl间不通，任意子vl都可与主vl通信
+~~~
+2 创建VALN
+[Huawei]vlan batch 10 20 100
+3 将接口加入到VLAN
+interface GigabitEthernet0/0/1
+ port link-type access
+ port default vlan 10
+4 Mux VLAN配置
+[Huawei-vlan100]mux-vlan
+[Huawei-vlan100]subordinate separate 20 
+[Huawei-vlan100]subordinate group 10
+5 在接口上启用Mux VLAN功能
+[Huawei-GigabitEthernet0/0/1]port mux-vlan enable
+~~~
