@@ -78,4 +78,4 @@ interface GigabitEthernet0/0/1
 - 可以选择配置基于mac、ip、协议、策略
 - 策略：
 	- 动静结合
-	- 两个方案：ip+mac 
+	- 两个方案：ip+mac +端口
