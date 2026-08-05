@@ -71,4 +71,4 @@ interface GigabitEthernet0/0/1
 ---
 ## supervlan
 基于同网段相同但是vl不同的需求，需要设置一个supervlan
-在supervl中视图中将子vl划入其中，给supervl的三层口启动一个
+在supervl中视图中将子vl划入其中，开启arp 路由间代理，给supervl的三层口配置一个ip。
