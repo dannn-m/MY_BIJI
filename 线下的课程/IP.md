@@ -79,3 +79,4 @@ interface GigabitEthernet0/0/1
 - 策略：
 	- 动静结合
 	- 两个方案：ip+mac +端口
+## GVRP
