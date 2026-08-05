@@ -70,3 +70,4 @@ interface GigabitEthernet0/0/1
 ~~~
 ---
 ## supervlan
+基于同网段但是不同的vl的需求需要
