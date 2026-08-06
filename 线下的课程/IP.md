@@ -96,7 +96,8 @@ interface GigabitEthernet0/0/1
 用于将私网的vl包再次封装一个vl，qinq即802.1q里面封装802.1q
 ### qinqport
 - 普通的没有灵活的自定义封装私网vlan
-### 
+### qinq stacking
+- 可以自定义封装关系10封装到100中 
 
 
 ## vlanmap
