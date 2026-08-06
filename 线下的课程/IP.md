@@ -93,7 +93,10 @@ interface GigabitEthernet0/0/1
 
 ---
 ## qinq
-### putin
+用于将私网的vl包再次封装一个vl，qinq即802.1q里面封装802.1q
+### qinqport
+- 普通的没有灵活的自定义封装私网vlan
+### 
 
 
 ## vlanmap
