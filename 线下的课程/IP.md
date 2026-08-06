@@ -32,7 +32,7 @@ ospf是基于区域内的链路状态路由协议，区域内的链路状态应�
 
 ---
 ## BFD
-
+故障检测技术
 
 ---
 ## 端口安全
@@ -92,7 +92,8 @@ interface GigabitEthernet0/0/1
  dis gvrp int g0/0/0
 
 ---
-## 
+## qinq
+###
 
 
 ## vlanmap
