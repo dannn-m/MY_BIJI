@@ -73,12 +73,16 @@ interface GigabitEthernet0/0/1
 - 基于同网段相同但是vl不同的需求，需要设置一个supervlan
 - 在supervl中视图中将子vl划入其中，开启arp 路由间代理
 - 给supervl的三层口配置一个ip。
+---
 
 ## 动态vlan
 - 可以选择配置基于mac、ip、协议、策略
 - 策略：
 	- 动静结合
 	- 两个方案：ip+mac +端口
+
+---
+
 ## GVRP
 - garp：通用属性注册协议（本身是一个协议框架）
 	- gvrp：通用vlan注册协议
@@ -86,4 +90,5 @@ interface GigabitEthernet0/0/1
 作用：动态学习vl不需要在在每个交换机创建
  dis gvrp status
  dis gvrp int g0/0/0
- 
+
+---
