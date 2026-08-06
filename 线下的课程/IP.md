@@ -97,7 +97,7 @@ interface GigabitEthernet0/0/1
 ### qinqport
 - 普通的没有灵活的自定义封装私网vlan
 ### qinq stacking
-- 可以自定义封装关系10封装到100中 
+- 可以自定义封装关系如：10封装到100中  20封装到200中 
 
 
 ## vlanmap
