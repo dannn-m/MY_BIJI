@@ -112,3 +112,8 @@ interface GigabitEthernet0/0/1
 
 ---
 ## arp代理
+
+
+
+## VRRP
+越低越优先，理论0-255 实际0-254
