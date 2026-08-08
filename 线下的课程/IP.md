@@ -117,3 +117,4 @@ interface GigabitEthernet0/0/1
 
 ## VRRP
 越低越优先，理论0-255 实际0-254
+组播报文目的224.0.0.18
