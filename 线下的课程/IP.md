@@ -138,3 +138,5 @@ ipprefix
 
 ---
 ## isis
+- isis的区域边界是整个路由器ospf的区域边界在router接口
+- l2路由器所在的范围
