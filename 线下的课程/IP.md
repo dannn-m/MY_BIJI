@@ -161,3 +161,6 @@ bgp路径选择：
 - 2、preferred-value数值高越好
 - 3、local-prefence数值越高越好
 - 。。。。
+
+---
+## 正则表达式
