@@ -157,8 +157,7 @@ ipprefix
 - no_advertise                  不出route
 - no_export_subconfed    不出联盟
 bgp路径选择：
-- 1、吓一跳b不可达。。，忽略
+- 1、吓一跳b不可达，忽略
 - 2、preferred-value数值高越好
 - 3、local-prefence数值越高越好
 - 。。。。
-- 
