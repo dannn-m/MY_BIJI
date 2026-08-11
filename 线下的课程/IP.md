@@ -155,4 +155,4 @@ ipprefix
 公认团体属性：
 - no_export                      不出as
 - no_advertise                  不出route
-- no_export_subconfed    
+- no_export_subconfed    不出联盟
