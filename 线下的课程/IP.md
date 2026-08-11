@@ -152,3 +152,7 @@ ipprefix
 - 本地优先级作用于出去的流量默认值100
 - med值：也叫cost默认0作用于两个相邻的as之间，进来的流量，越低越优先
 
+公认团体属性：
+- no_export                      不出as
+- no_advertise                  不出route
+- no_export_subconfed    
