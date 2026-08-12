@@ -231,3 +231,7 @@ bgp路径选择：
 - apply as_path 300 additive            左侧追加
 - apply as_path 300 overwrite          已有的替换为此处的
 - apply as_path none overwrite        清空
+**origin**：
+- igp              标记i                **优先级i>e>?**
+- egp             标记e
+- inconplete  标记？
