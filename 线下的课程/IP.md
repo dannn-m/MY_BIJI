@@ -214,3 +214,4 @@ bgp路径选择：
 - import-route ospf/static/isis....
 2）**路由聚合**：
 - aggergate ip mask detail-suppressed 明细压制
+### 4.通告原则
