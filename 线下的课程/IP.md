@@ -219,11 +219,11 @@ bgp路径选择：
 
 - BGP通过network、import‑route、aggregate聚合方式生成BGP路由后，通过Update报文将BGP路由传递给对等体。
  **BGP通告遵循以下原则**： 
-- 只发布最优路由:              
+1. 只发布最优路由:              
 	- **display bgp routing-table**
 	- * : 代表有效
 	- >: 代表最优
+2. 从EBGP对等体获取的路由会发布给所有对等体
+3. IBGP水平分割：从IBGP对等体获取的路由，不会发送给IBGP对等体。
 
-- 从EBGP对等体获取的路由，会发布给所有对等体。 
-- IBGP水平分割：从IBGP对等体获取的路由，不会发送给IBGP对等体。
 - BGP同步规则指的是：ibgp路由不会直接通告给对端的ebgp路由器，除非ibgp对端有igp路由，即ibgp与igp路由同步，以防止路由黑洞
