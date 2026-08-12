@@ -228,3 +228,4 @@ bgp路径选择：
 4. BGP同步规则指的是：ibgp路由不会直接通告给对端的ebgp路由器，除非ibgp对端有igp路由，即ibgp与igp路由同步，以防止路由黑洞
 #### 5.路径属性
 **AS_PATH**:
+- apply as_path a'd'd
