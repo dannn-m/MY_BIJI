@@ -208,7 +208,8 @@ bgp路径选择：
 
 
 ### 3.bgp路由
+1）**路由注入**：
 - bgp不会自己产生路由，需要路由注入
-**路由注入**：
 - network ip mask
-- import-route ospf
+- import-route ospf/static/isis....
+2）
