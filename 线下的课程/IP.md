@@ -197,3 +197,18 @@ bgp路径选择：
 ## 路由反射
 路由反射蔟
 防环靠cluster id 
+
+---
+## BGP原理
+### 1.bgp报文
+
+
+### 2.bgp状态机
+
+
+
+### 3.bgp路由
+- bgp不会自己产生路由，需要路由注入
+**路由注入**：
+- network ip mask
+- import-route ospf
