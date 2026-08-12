@@ -212,4 +212,5 @@ bgp路径选择：
 - bgp不会自己产生路由，需要路由注入
 - network ip mask
 - import-route ospf/static/isis....
-2）
+2）**路由聚合**：
+- aggergate ip mask detail-suppressed 明细压制
