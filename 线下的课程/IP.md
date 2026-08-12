@@ -229,4 +229,5 @@ bgp路径选择：
 #### 5.路径属性
 **AS_PATH**:
 - apply as_path 300 additive            左侧追加
-- apply as_path 300 overwrite          已有的替换为ci'chu'd
+- apply as_path 300 overwrite          已有的替换为此处的
+- apply as_path none overwrite        q
