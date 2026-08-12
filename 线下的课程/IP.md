@@ -218,8 +218,9 @@ bgp路径选择：
 ### 4.通告原则
 
 - BGP通过network、import‑route、aggregate聚合方式生成BGP路由后，通过Update报文将BGP路由传递给对等体。
-- **BGP通告遵循以下原则**： 
-- 只发布最优路由。              **display bgp routing-table**
+ **BGP通告遵循以下原则**： 
+- 只发布最优路由:              
+	- **display bgp routing-table**
 	- * : 代表有效
 	- >: 代表最优
 
