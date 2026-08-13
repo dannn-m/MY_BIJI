@@ -236,7 +236,7 @@ bgp路径选择：
 - egp             标记e
 - inconplete  标记？
 **next_hop**:
-- 向ebgp发或本地始发向ibgp，值该为对端建立接口地址
+- 向ebgp发或本地始发向ibgp，值该为本地建立接口地址
 - 收到EBGP所发的路由后，将其发给对等IBGP路由器时，下一跳不变
 - 收到的bgp路由与自身的ebgp对等体处于同一网段，那么将他发布给其他的对等体时下一跳不变
 **local_preference**:
