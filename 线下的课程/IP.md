@@ -253,3 +253,5 @@ bgp路径选择：
 - NO_Export:不出自治系统
 - NO_Export_subconfed：不出子系统
 **med**：
+- 指出进入本as的最佳路径
+- 越小越优
