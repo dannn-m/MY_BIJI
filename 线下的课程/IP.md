@@ -243,4 +243,4 @@ bgp路径选择：
 - 越大越优先
 - 只传递给ibgp对等体
 - dis bgp routing-table
-- 可以在as边界import方向
+- 可以在as边界使用import方向策略来修改
