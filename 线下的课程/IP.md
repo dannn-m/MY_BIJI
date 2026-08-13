@@ -246,4 +246,4 @@ bgp路径选择：
 - 可以在as边界使用import方向策略来修改
 - bgp default local-perference 使用默认100
 - 引入的路由的本地优先级为默认优先级
-**commi**
+**community**：
