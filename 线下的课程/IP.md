@@ -276,9 +276,11 @@ bgp路径选择：
 - 角色：
 	- rr ：反射路由器
 	- client：rr的客户端
+	- peer {group-name | ipv4-address } reflect-client
+
 - 因为有反射器破坏了水平分割所以需要防环
 	- 由第一个rr为学习到的路由加上发送端的originator id
 - 路由反射簇
 	- 每个as允许有多个蔟，每个簇的id缺省时为rr的route id
 	- 当rr收到含有自生蔟的路由时认为存在环路则忽略该路由更新
-	- 
+	- reflector cluster-id cluster-id
