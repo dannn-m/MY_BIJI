@@ -262,3 +262,7 @@ bgp路径选择：
 	- 非路由策略在ibgp间不丢失不改变
 - 引入ospf值为100 直连为0
 - 使用default med修改 **自身引入或聚合** 的路由
+**atomic_Aggregate**
+- 公认必遵
+**Aggregate**：
+- 可选过渡
