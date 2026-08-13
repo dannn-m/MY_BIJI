@@ -247,3 +247,9 @@ bgp路径选择：
 - bgp default local-perference 使用默认100
 - 引入的路由的本地优先级为默认优先级
 **community**：
+- 团体属性 格式 区域号：自定义号
+- internet：默认属性
+- NO_advertise:不宣告路由
+- NO_Export:不出自治系统
+- NO_Export_subconfed：不出子系统
+**med**：
