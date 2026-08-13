@@ -244,3 +244,5 @@ bgp路径选择：
 - 只传递给ibgp对等体
 - dis bgp routing-table
 - 可以在as边界使用import方向策略来修改
+- bgp default local-perference 使用默认100
+- 
