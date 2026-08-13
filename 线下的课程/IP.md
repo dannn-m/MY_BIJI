@@ -264,5 +264,7 @@ bgp路径选择：
 - 使用default med修改 **自身引入或聚合** 的路由
 **atomic_Aggregate**
 - 公认必遵
+- 用于在路由表中表示是否是聚合路由
 **Aggregate**：
 - 可选过渡
+- 聚合设备的as号
