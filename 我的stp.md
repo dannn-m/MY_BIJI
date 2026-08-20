@@ -9,3 +9,4 @@
 - listening
 - learning
 - forwording
+首先当交换机开机以后他会进入listeningzh
