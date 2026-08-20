@@ -5,4 +5,7 @@
 - 其他端口禁用
 # stp状态
 - disable
-- 
+- blocking
+- listening
+- learning
+- forwording
