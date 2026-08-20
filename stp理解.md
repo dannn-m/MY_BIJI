@@ -9,4 +9,4 @@
 - listening
 - learning
 - forwording
-首先当交换机开机以后他会进入listening状态，并互相发送以自己为根桥的bpdu报文，进行选举
+首先当交换机开机以后他会进入listening状态，并互相发送以自己为根桥的bpdu报文，通过比较桥id的方式进行比较shei'shi
