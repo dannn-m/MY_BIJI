@@ -329,3 +329,10 @@ bgp路径选择：
 
 ---
 ### 以太网安全
+mac地址表安全功能
+- 静态
+- 黑洞
+- 动态老化
+- 禁止学习
+- 限制学习
+ mac-address 【static|blackhole|aging-time】
