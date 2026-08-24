@@ -337,3 +337,10 @@ mac地址表安全功能
 - 限制学习
  mac-address 【static|blackhole|aging-time|learning disable
  mac-limit
+ #### mac地址漂移概述
+ - 意味网络存在环路或者攻击行为
+ - 表示两个接口学习到同一个mac
+**解决方案**：配置地址学习优先级、配置不允许覆盖---mac-learnling
+**检测方法**：
+	基于vl：
+	基于全局
