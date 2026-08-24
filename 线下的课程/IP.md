@@ -344,4 +344,4 @@ mac地址表安全功能
 **检测方法**：
 	基于vl：
 	基于全局
-**流量抑制**：multicast-suppression
+**流量抑制**：multicast-suppression组播抑制 /广播/单播
