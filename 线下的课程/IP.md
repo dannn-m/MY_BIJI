@@ -335,4 +335,4 @@ mac地址表安全功能
 - 动态老化
 - 禁止学习
 - 限制学习
- mac-address 【static|blackhole|aging-time】
+ mac-address 【static|blackhole|aging-time|learning disable】
