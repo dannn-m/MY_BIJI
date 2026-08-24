@@ -346,3 +346,6 @@ mac地址表安全功能
 	基于全局
 **流量抑制**：multicast-suppression组播抑制 /广播/单播
 **风暴控制**：storm-control 
+#### ipsg
+- 用于解决伪造合法ip获取网络访问权限
+- 此技术基于二层接口的源ip地址过滤技术
