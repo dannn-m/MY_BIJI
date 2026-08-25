@@ -336,3 +336,5 @@ bgp路径选择：
 - 安全动态 mac：开启安全没开stocky
 - 安全静态 mac：静态绑定
 - sticky mac：开启安全并开启sticky
+**动作**：
+- restrict：
