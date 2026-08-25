@@ -337,4 +337,4 @@ bgp路径选择：
 - 安全静态 mac：静态绑定
 - sticky mac：开启安全并开启sticky
 **动作**：
-- restrict：
+- restrict：丢弃源mac地址不存在的报文并上报告警
