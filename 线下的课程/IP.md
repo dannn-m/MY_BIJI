@@ -332,29 +332,5 @@ bgp路径选择：
 ## 端口隔离
 ## mac安全
 ## 端口安全
-- **所有配置可以分为在接口视图和在vlan中进行配置**
-mac地址表安全功能
-- 静态
-- 黑洞
-- 动态老化
-- 禁止学习
-- 限制学习     dis mac-limit
- mac-address 【static|blackhole|aging-time|learning disable
- mac-limit
- ### mac地址漂移概述
- - 意味网络存在环路或者攻击行为
- - 表示两个接口学习到同一个mac
-**解决方案**：配置地址学习优先级、配置不允许覆盖---mac-learnling 
-**检测方法**：
-	基于vl：
-	基于全局
-**流量抑制**：multicast-suppression组播抑制 /广播/单播
-**风暴控制**：storm-control 
-#### ipsg
-- 用于解决伪造合法ip获取网络访问权限
-- 此技术基于二层接口的源ip地址过滤技术
-原理：
-- 通过绑定表（源mac，接口信息。。。）
-- 分为静态绑定和dhcp动态绑定
-作用：防止用户私自更改ip
-	 防止非法用户接入
+种类：
+安全mac
