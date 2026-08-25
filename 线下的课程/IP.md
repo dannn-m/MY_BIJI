@@ -346,3 +346,6 @@ bgp路径选择：
 **解决**：
 - 在接口配置学习优先级
 - undo mac-learling priority 0 allow-flapping 后学习的将不会覆盖前者表项
+检测：
+- 基于vlan的检测 可以配置指定动作告警、阻断接口、阻断mac
+- 全局 设备会上报网管 也可指定动作接口关闭或退出vl
