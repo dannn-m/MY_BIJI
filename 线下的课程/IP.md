@@ -343,7 +343,7 @@ bgp路径选择：
 - shutdown：关闭接口并告警
 ## mac漂移
 **作用**：用于解决不同端口学习到相同的mac（伪造攻击）
-**解决**：
+**防止**：
 - 在接口配置学习优先级
 - undo mac-learling priority 0 allow-flapping 后学习的将不会覆盖前者表项
 检测：
