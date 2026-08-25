@@ -338,3 +338,5 @@ bgp路径选择：
 - sticky mac：开启安全并开启sticky
 **动作**：
 - restrict：丢弃源mac地址不存在的报文并上报告警
+- protect：只丢弃不报警
+- shutdown：关闭接口并告警
