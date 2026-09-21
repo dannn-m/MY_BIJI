@@ -1,0 +1,19 @@
+{
+  "editor:set-heading-3": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageDown"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:toggle-comments": [],
+  "easy-typing-obsidian:easy-typing-goto-new-line-after-cur-line": []
+}
