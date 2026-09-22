@@ -15,4 +15,5 @@ HDD 机械硬盘与 SSD 固态硬盘：
 - 固态：
 	- 贵，快
 	- 几乎不可恢复
-	- 接口协议：M.2、U.2、SATA、mSATA、SAS、PCIE
+	- 接口协议：M.2、U.2、SATA、mSATA、SAS、PCIE，家用 M.2 企业 U.2
+	- 闪存是硬盘
