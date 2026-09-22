@@ -21,4 +21,10 @@ udp：500 ipsec 中 ike 做密钥协商会用到
 # v 1 机制与问题
 - 管理站与代理站之间可以是==一对多关系，==也可以是==多对一关系==
 - SNMP 的认证和控制机制，通过==团体名==验证实现
-- 团体名 community==明文传输，不安全
+- 团体名 community==明文传输，不安全==
+
+flowchart LR
+    A[Agent 1] -- 团体<br/>Community --> subMgr[Manager<br/>Manager<br/>...]
+    subMgr --> M 1[Manager]
+    M 1 -- Community --> A 2[Agent 2]
+    M 1 -- Community --> A 3[Agent 3]
