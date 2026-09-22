@@ -23,8 +23,22 @@ udp：500 ipsec 中 ike 做密钥协商会用到
 - SNMP 的认证和控制机制，通过==团体名==验证实现
 - 团体名 community==明文传输，不安全==
 
+```mermaid
 flowchart LR
-    A[Agent 1] -- 团体<br/>Community --> subMgr[Manager<br/>Manager<br/>...]
-    subMgr --> M 1[Manager]
-    M 1 -- Community --> A 2[Agent 2]
-    M 1 -- Community --> A 3[Agent 3]
+    subgraph left
+        A1[Agent1]
+    end
+    subgraph mgrGroup[" "]
+        M1[Manager]
+        M2[Manager]
+        M3[Manager<br/>⋮]
+    end
+    A1 <-->|团体<br/>Community| M1
+    M1 <-->|Community| A2[Agent2]
+    M1 -->|Community| A3[Agent3]
+```
+
+
+# v 2
+- ==getbulk==:快速获取大块数据
+- ＝＝

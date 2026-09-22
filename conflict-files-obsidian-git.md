@@ -4,6 +4,7 @@ Please resolve them and commit them using the commands `Git: Commit all changes`
 [[#Additional Instructions]] available below file list
 
 - Not a file: .obsidian/hotkeys.json
+- Not a file: .obsidian/community-plugins.json
 - [[9－1 网络管理基础]]
 
 # Additional Instructions
