@@ -56,5 +56,5 @@ flowchart LR
 # 管理数据库 MIB -2
 - 被管理对象标识符 OID
 ![[Image_1790059455166_926.jpg]]
-[!warning] 注：
-> 
+> [!warning] 注：
+> 不同的设备的 OID 标准不同
