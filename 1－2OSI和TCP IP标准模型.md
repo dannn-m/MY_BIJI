@@ -14,7 +14,8 @@
     - 物理层：比特流传输、电气规约
 # TCP IP
 - 应用    telent ftp  tftp  snmp...
-- 传输
-- 网络
-- 数据链路
-- 物理
+- 传输  tcp udp
+- 网络  ip icmp ospf..
+- 数据链路 ethernet frame－relay
+- 物理  双绞线、光纤、跳线/尾纤...
+
