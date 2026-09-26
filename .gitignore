@@ -35,3 +35,33 @@ Desktop.ini
 # Obsidian Git 冲突记录
 conflict-files-obsidian-git.md
 .obsidian/app.json
+
+
+# ==============================================
+# 大体积文件（不同步，避免仓库膨胀和同步失败）
+# ==============================================
+# 电子书 / 文档
+*.pdf
+# 音视频
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wmv
+*.flv
+*.m4v
+*.mp3
+*.m4a
+*.wav
+*.flac
+# 压缩包 / 镜像 / 安装包
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+*.apk
+*.exe
+*.msi
+*.dmg
