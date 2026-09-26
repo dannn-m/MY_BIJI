@@ -16,9 +16,6 @@
 # Obsidian 临时文件
 *.base
 .trash/
-.obsidian/community-plugins.json
-.obsidian/hotkeys.json
-
 
 # ==============================================
 # 系统/IDE 垃圾文件（彻底屏蔽）
