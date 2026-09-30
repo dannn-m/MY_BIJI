@@ -1,1 +1,1 @@
-- dis nat session all 可以显示
+- dis nat session all 可以显示所有 NAT 会话详细（协议、映射表）
