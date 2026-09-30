@@ -1,1 +1,1 @@
-查看
+- dis nat session all 可以显示
