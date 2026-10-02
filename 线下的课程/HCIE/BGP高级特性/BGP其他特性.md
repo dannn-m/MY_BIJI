@@ -25,3 +25,5 @@
 	- 可与 2 字节兼容
 	- new speaker：支持 4 字节 as 的 BGP speaker
 	- old speaker：不支持 4 字节
+	- 格式：
+		- 
