@@ -15,6 +15,11 @@
 	建立非法邻居
 	非法 bgp 报文
 解决办法：BGP 认证
-- 分为 md 5 认证和
-- peer x.x..  pasw
-- 
+- 分为 md 5 认证和 keychein 认证
+- md 5
+	- peer x.x..  pasw
+- GTSM
+	- 配置 peer x.x.x.x valid－ttl－hops *num*
+	- 根据公式【255－hops＋1，255】这区间的 ttl 值才为有效的其余都丢弃
+- 4 字节 AS 号
+	- 可与 2 字节兼容
