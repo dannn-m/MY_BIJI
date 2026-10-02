@@ -23,3 +23,5 @@
 	- 根据公式【255－hops＋1，255】这区间的 ttl 值才为有效的其余都丢弃
 - 4 字节 AS 号
 	- 可与 2 字节兼容
+	- new speaker：支持 4 字节 as 的 BGP speaker
+	- old speaker：不支持 4 字节
