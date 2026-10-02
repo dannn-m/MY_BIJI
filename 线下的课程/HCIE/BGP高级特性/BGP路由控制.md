@@ -13,3 +13,12 @@
 	- MED，继承 ibp 的开销
 # 路由控制
 - 路由策略工具实现：filter－policy 和 route－policy
+- 路由匹配工具：ACL、IP Prefix list、AS_path filter、community Filter
+团体属性
+- internet：默认
+- NO_advertise
+- NO_export
+- NO_export_subconfed
+community Filter
+基本：1－99 团体号公认团体属性
+高级：100－199 使用正则表达匹配团体号
