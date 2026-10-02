@@ -10,4 +10,9 @@
 	- peer adr group name
 	- peer name as－num  100
 		- 针对 ebgp 需要在创建邻居的时候指定 as 号，igp 不用写，与自身 as 号相同
-# BGP
+# BGP 安全性
+常见攻击 ：
+	建立非法邻居
+	非法 bgp 报文
+解决办法：BGP 认证
+- 
