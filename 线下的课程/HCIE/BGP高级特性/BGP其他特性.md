@@ -9,5 +9,5 @@
 	- **group** *name* e/i
 	- peer adr group name
 	- peer name as－num  100
-		- 针对 ebgp 这条不用写，会自动找邻居 as
+		- 针对 ebgp 需要在
 	- 
