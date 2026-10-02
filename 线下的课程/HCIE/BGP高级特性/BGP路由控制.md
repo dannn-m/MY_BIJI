@@ -12,4 +12,4 @@
 - 可选非过渡
 	- MED，继承 ibp 的开销
 # 路由控制
-- 路由策略
+- 路由策略工具实现：filter－policy 和 route－policy
