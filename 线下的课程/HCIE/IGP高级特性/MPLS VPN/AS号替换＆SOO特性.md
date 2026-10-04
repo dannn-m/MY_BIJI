@@ -8,4 +8,6 @@
 	- optionB
 	- optionC
 - 当 ce 与 pe 通过 ebgp 邻居连接时
-	- 由于 vpn
+	- 由于 vpn 两端的 as 号一致所以需要进行 as 替换
+	- peer x.x.x.x substance as
+	- 同一侧的 pe 连接了多个同 as 的 ebgp 邻居，
