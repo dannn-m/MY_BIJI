@@ -12,3 +12,4 @@
 	- peer x.x.x.x subsititute as
 	- 同一侧的 pe 连接了多个同 as 的 ebgp 邻居，由于进行了 as 替换
 	- 所以就需要 soo 特性进行防环
+		- 
