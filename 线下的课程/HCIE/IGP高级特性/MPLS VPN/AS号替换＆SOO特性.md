@@ -7,3 +7,5 @@
 	- optionA
 	- optionB
 	- optionC
+- 当 ce 与 pe 通过 ebgp 邻居连接时
+	- 由于 vpn
