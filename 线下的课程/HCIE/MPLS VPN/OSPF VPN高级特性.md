@@ -8,3 +8,5 @@
 	- 就需要配置 shaim link 将 vpn 侧也传递 1/2 类 lsa 
 		- 1.在两侧 pe 新创建环回口
 		- 2.将环回口宣告进 bgp 路由中
+		- 3.在 ospf 区域中配置 shaim link 功能
+- 
