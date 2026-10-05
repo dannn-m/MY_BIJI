@@ -1,4 +1,10 @@
 - domain id
 	- 将 ospf 引入到 bgp 时，bgp 会保留一些 ospf 的信息，area...这些
 	- 其中 bgp 会有一个拓展属性 doamin id
-	- 如果 vpnv 4 邻居两端的 domain id 一致并且在路由源端产生的 1 2 类 lsa 在目的端就会产生三类的 las 注入
+	- 如果 vpnv 4 邻居两端的 domain id 一致并且在路由源端产生的 1 2 类 lsa 在目的端就会产生三类的 las 注入到目的端的 ospf 1 网络
+- shaim link
+	- 往往在 ospf vpn 场景中会有一个备份后门链路
+	- 但是由于备份链路直接接收 1 /2类 lsa 会优与 vpn 侧传递的
+	- 就需要配置 shaim link 将 vpn 侧也传递 1/2 类 lsa 
+		- 1.在两侧 pe 新创建环回口
+		- 2.将环回口宣告进 bgp 路由中
