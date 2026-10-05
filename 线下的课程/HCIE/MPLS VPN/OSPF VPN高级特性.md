@@ -1,2 +1,3 @@
 - domain id
-	- 将 ospf 引入到
+	- 将 ospf 引入到 bgp 时，bgp 会保留一些 ospf 的信息，area...这些
+	- 其中
