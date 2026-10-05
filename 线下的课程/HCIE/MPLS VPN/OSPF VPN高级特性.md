@@ -1,3 +1,4 @@
 - domain id
 	- 将 ospf 引入到 bgp 时，bgp 会保留一些 ospf 的信息，area...这些
-	- 其中
+	- 其中 bgp 会有一个拓展属性 doamin id
+	- 如果 vpnv 4 邻居两端的 domain id 一致并且在路由源端产生的 1 2 类 lsa 在目的端就会产生三类的 las 注入
