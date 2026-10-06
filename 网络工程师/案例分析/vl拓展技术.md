@@ -11,7 +11,7 @@
 - mux－vlan /启用 mux vl 并 100 为主 vl
 - subordinate sparate 200 //将 200 设置为隔离 vl（vl 内主机互相隔离）
 - subordinate sparate 300 //将 300 设置为组 vl（vl 内主机互通，不同组间隔离）
-- 需要在
+- 需要在端口开启 mux－vl 不然不能隔离
 > [!note]
 > 隔离 vl 只能有一个，这些子 vl 都可以与主 vl 通
 
