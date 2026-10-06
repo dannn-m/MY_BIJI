@@ -1,1 +1,6 @@
 - 原因：主机中毒、环路
+- 方案：在接口下配置 arp 限制表项
+	- arp－limit
+- 配置针对源 ip 地址的 arp 报文速率抑制功能
+	- arp speed－limit source－ip x.x.x.x maxmum 10
+	- 
