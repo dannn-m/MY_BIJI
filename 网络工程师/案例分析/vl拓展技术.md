@@ -7,3 +7,5 @@
 - int vl 10
 - arp－proxy inter－sub－vlan－proxy en
 # mux－vlan
+- vlan 100
+- mux－vlan /
