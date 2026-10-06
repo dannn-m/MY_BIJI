@@ -8,4 +8,5 @@
 - arp－proxy inter－sub－vlan－proxy en
 # mux－vlan
 - vlan 100
-- mux－vlan /
+- mux－vlan /启用 mux vl 并 100 为主 vl
+- subordinate sparate 200 //将
