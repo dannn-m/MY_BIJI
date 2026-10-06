@@ -5,4 +5,4 @@
 - aggregate－vlan
 - access－vlan
 - int vl 10
-- 
+- arp－proxy inter－sub－vlan－proxy en
