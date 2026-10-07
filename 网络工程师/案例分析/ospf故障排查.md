@@ -1,0 +1,5 @@
+- 网络类型不一致（有些能建立不能传路由，有些不能建立）
+- 修改 hellotime deadtime 自动计算
+- 修改 deadtime hellotime 不变
+- dis ospf erro 查看报错信息
+- 
