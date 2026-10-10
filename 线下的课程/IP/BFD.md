@@ -39,7 +39,7 @@
 - Track 收到结果后，及时改变 Track 项的状态，并通知给应用模块
 - 应用模块根据状态进行相应处理，实现联动
 # 配置
-‘’‘’
+
 bfd   	//使能 bfd
 bfd 名字 bind peer 对端 IP interface 本端接口   	//配置静态 bfd 会话
 discriminator local 10    // 配置本地标识符
