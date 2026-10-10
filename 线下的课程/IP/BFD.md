@@ -38,3 +38,14 @@
 - 检测模块负责对链路进行检测并将结果通知给 Track 模块
 - Track 收到结果后，及时改变 Track 项的状态，并通知给应用模块
 - 应用模块根据状态进行相应处理，实现联动
+# 配置
+
+bfd   	//使能 bfd
+bfd 名字 bind peer 对端 IP interface 本端接口   	//配置静态 bfd 会话
+discriminator local 10    // 配置本地标识符
+discriminator remote 20     //配置远端标识符
+commit						// 提交配置
+
+注意本地标识符和远端标识符要匹配否则无法建立 BFD 会话
+会话验证：display bfd session all  verbose
+
