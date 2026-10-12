@@ -9,5 +9,5 @@
 -  ![[Pasted image 20261012202455.png]]
 # 加组机制
 - IGMP routing table：组播信息、出接口
-- IGMP group：成员（只记录一个）、查询
+- IGMP group：成员（只记录一个）、查询时间：60 s、最大响应时间 10 s、老化时间=2 * 60+10
 - 
