@@ -9,5 +9,5 @@
 -  ![[Pasted image 20261012202455.png]]
 # 加组机制
 - IGMP routing table：组播信息、出接口
-- IGMP group：成员（只记录一个）
+- IGMP group：成员（只记录一个）、查询
 - 
