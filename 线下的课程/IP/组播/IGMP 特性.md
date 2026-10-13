@@ -17,4 +17,4 @@
 ## 实现
 - 在最后一个路由器配置 Mapping
 # IGMP Proxy
-就是代理
+- 在交换机上开启 proxy，可以
