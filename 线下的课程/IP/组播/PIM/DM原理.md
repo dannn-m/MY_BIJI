@@ -1,0 +1,3 @@
+- 工作于相对密集的网络中
+- DM 除了扩散（flooding）、剪枝（Prune）机制外，还会涉及邻居发现（Neighor Discovery），嫁接（Graft），断言（Assert）和状态刷新（State Refresh）机制
+- 
