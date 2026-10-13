@@ -12,3 +12,4 @@
 	- PIM-SM(PIM-Sparse-Mode，PIM 稀疏模式)，又可以分为
 		- PIM-SM(ASM)：为任意源组播建立组播分发树
 		- PIM-SM(SSM)：为指定源建立组播分发树
+	- 
