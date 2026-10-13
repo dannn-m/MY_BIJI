@@ -18,4 +18,5 @@
 	- SPT（short path）：以组播源为根，组播成员为叶子的组播分发树，在 DM 与 SM 中均有应用
 	- RPT（rendezvous point）：以 RP 为根，组播成员为叶子的组播分发树，在 SM 中使用
 - 路由表项：
-	- 
+	- （s，g）：主要用于 PIM 网络中建立 SPF,DM 与 SM 中都有应用
+	- （* ，g）：主要用于 PIM 中建立 RPT，对于 SM 网络适用
