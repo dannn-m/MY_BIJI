@@ -2,4 +2,6 @@
 - DM 除了扩散（flooding）、剪枝（Prune）机制外，还会涉及邻居发现（Neighor Discovery），嫁接（Graft），断言（Assert）和状态刷新（State Refresh）机制
 	- 扩散：所有接口泛洪
 	- 剪枝：泛洪后无回应的接口就修剪
+- 报文
+	- 采用 ip 封装，目的地址 224.0.0.13，协议号 103
 	- 
