@@ -10,4 +10,4 @@
 	- 处理 DR 注册信息，以及组成员加入请求，网络中所有 PIM 路由器都要知道 RP 的地址
 	- 配置方式分为静态和动态：在多个 C－RP（candidate－RP）中选举出 RP
 - 动态 RP
-	- 
+	- 有 C－BSR（candidate－bootstrap router）
