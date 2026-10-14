@@ -12,5 +12,8 @@
 - 动态 RP
 	- 有 C－BSR（candidate－bootstrap router）与 C－RP 两类角色
 		- C-BSR 通过竞选能选举出一个唯一的 BSR
+			- 优先级大
+			- ip 地址大
 		- BSR 复杂搜集候选信息（RP－SET），并把他们扩散给所有 PIM 路由器
 		- PIM 路由器根据 RP 选举规则选举出合适的 RP
+			- 
