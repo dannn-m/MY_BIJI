@@ -11,6 +11,6 @@
 	- 配置方式分为静态和动态：在多个 C－RP（candidate－RP）中选举出 RP
 - 动态 RP
 	- 有 C－BSR（candidate－bootstrap router）与 C－RP 两类角色
-		- C-
+			- C-BSR 通过竞选能选举出一个唯一的 BSRZ
 		- C－BSR 复杂搜集候选信息（RP－SET）
 		- 
