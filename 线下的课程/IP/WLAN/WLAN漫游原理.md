@@ -6,4 +6,4 @@
 		- 保证用户授权信息不变
 		- 保证用户 ip 不变
 - 相关术语
-	- HAC（home AC）：
+	- HAC（home AC）：STA 首次
