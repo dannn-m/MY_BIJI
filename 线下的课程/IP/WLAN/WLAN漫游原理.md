@@ -10,5 +10,5 @@
 	- HAP（home AP）：
 	- FAC （Foreign AC）：后关联的 AC
 	- FAP（Foreign AP）：
-	- 家乡代理用于在 ac 间的漫游的 sta 要访问 HAP 的数据需要使用家乡代理
+	- 家乡代理用于在 ac 间的漫游的 sta 要访问 HAP 的数据需要使用家乡代理（HAC 或 HAP 设置为家乡代理）
 	- ![[Screenshot_2026-10-15-16-56-53-07_769977972775e0c6b41aa3dfaf766445.jpg]]
