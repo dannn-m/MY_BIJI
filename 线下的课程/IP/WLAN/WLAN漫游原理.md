@@ -6,4 +6,5 @@
 		- 保证用户授权信息不变
 		- 保证用户 ip 不变
 - 相关术语
-	- HAC（home AC）：STA 首次与漫游组内的某个 AC 进行关联，该 AC
+	- HAC（home AC）：STA 首次与漫游组内的某个 AC 进行关联，该 AC 即为它的 HAC
+	- HAP（home AP）：
