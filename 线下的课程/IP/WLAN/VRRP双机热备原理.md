@@ -13,5 +13,6 @@
 	- 定时同步：每隔 30 s 检查是否同步
 - 配置流程
 	- VRRP
-	- HSB
+	- HSB server
+	- HSB group
 	- 
