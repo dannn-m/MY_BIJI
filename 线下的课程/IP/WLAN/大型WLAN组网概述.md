@@ -1,1 +1,6 @@
-iMaster NCE:SDN 控制器＆智能
+iMaster NCE:SDN 控制器＆智能网络分析器  管理、控制、分析
+# 关键技术
+VLAN Pool：把接入的用户分配到不同的 vl
+DHCP option 43＆52：通过 DHCP 的 option 43 与 option 52 字段来通告 ac 的 IP 地址
+漫游：在不同 ap 覆盖范围之间移动且保持用户业务不中断
+高可靠性技术：保证主设备故障时业务能够
