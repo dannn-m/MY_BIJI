@@ -10,3 +10,4 @@
 	- HAP（home AP）：
 	- FAC （Foreign AC）：后关联的 AC
 	- FAP（Foreign AP）：
+	- ![[Screenshot_2026-10-15-16-56-53-07_769977972775e0c6b41aa3dfaf766445.jpg]]
