@@ -15,4 +15,5 @@
 	- VRRP
 	- HSB server
 	- HSB group
-	- 
+	- 使能 HSB group
+	- 检查结果
