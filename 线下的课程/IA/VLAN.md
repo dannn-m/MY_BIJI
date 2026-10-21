@@ -11,4 +11,5 @@
 	- 当收到一个 tagged 帧，交换机会检查这个帧的 Tag 中的 VID 是否与 PVID 相同，不同则丢弃
 	- 当交换机上其他端口进入 access 口，交换机会检查这个 tag 中的 VID 与此 PVID 相同则转发
 - （2）Trunk 端口
-	- 从链路上收到一个 untagged 交换机会添加
+	- 从链路上收到一个 untagged 交换机会添加 pvid 的 tag，然后检查是否在允许通过列表再转发
+	- 
