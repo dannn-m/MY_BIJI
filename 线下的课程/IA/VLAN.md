@@ -9,4 +9,6 @@
 - （1）Access 端口
 	- 当 Access 端口从链路上接收到一个 Untagged 帧后，交换机会在这个帧中添加上 VID 为 PVID 的 tag
 	- 当收到一个 tagged 帧，交换机会检查这个帧的 Tag 中的 VID 是否与 PVID 相同，不同则丢弃
-	- 当交换机上其他端口进入 access 口，交换机会检查这个 tag 中的 VID 与此 PVID
+	- 当交换机上其他端口进入 access 口，交换机会检查这个 tag 中的 VID 与此 PVID 相同则转发
+- （2）Trunk 端口
+	- 从链路上
