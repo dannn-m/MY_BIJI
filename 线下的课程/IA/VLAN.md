@@ -19,7 +19,7 @@
 		- untagged 打上 pvid 并检查是否允许通过
 		-  tagged，检查是否在允许通过列表
 	- 当本交换机其他口到达一个 trunk 口
-		- 当这个帧在允许列表，且 VID 与 PVID 相同，交换机会对这个 tag 帧进行剥离，并发送
-	- tag 帧到从本交换机此 trunk 口，在允许列表中，VID 与 PVID 不同，交换机会直接将它发出去而不进行剥离
+		- 在允许列表，且 VID 与 PVID 相同，交换机会对这个 tag 帧进行剥离，并发送
+		- tag 帧到从本交换机此 trunk 口，在允许列表中，VID 与 PVID 不同，交换机会直接将它发出去而不进行剥离
 - （3）Hybrid 端口
 	- 除了要配置 PVID 外还要配置 untagged 列表和 tagged 列表
