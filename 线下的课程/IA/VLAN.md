@@ -16,7 +16,7 @@
 		- tag 与 pvid 相同才转发
 - （2）Trunk 端口
 	- 从链路上收到
-		- untagged 打上 pvid 并检查是否允许通过
+		- untagged 打上 pvid 并检查是否允
 		-  tagged，检查是否在允许通过列表
 	- 当本交换机其他口到达一个 trunk 口
 		- 在允许列表，且 VID 与 PVID 相同，交换机会对这个 tag 帧进行剥离，并发送
