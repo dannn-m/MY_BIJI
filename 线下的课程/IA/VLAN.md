@@ -6,7 +6,7 @@
 - 交换机与终端计算机直接相连的链路成为 access
 	- 此链路上的帧应当是 untagged
 - 交换机之间直接相连的链路称为 trunk
-	- 此链路上的帧应当是
+	- 此链路上的帧应当是 tagged
 - 每一几交换机端口（无论 access 还是 trunk）都应该配置一个 PVID，到达这个端口的 Untagged 帧将一律被交换机划分到 PVID 所代指的 VLAN
 - （1）Access 端口
 	- 当 从链路上接收到一个帧后
