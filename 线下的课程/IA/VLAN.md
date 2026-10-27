@@ -26,4 +26,5 @@
 - （3）Hybrid 端口
 	- 除了要配置 PVID 外还要配置 untagged 列表和 tagged 列表
 	- 从链路收到：
-		- tag
+		- untagged，打上 pvid 的 tag，查两个表
+		- 
