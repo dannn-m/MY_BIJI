@@ -11,7 +11,7 @@
 		- untag，打上 pvid 的 tag
 		- tag，不同就丢弃
 	- 发出一个（从其他端口收到）
-		- 
+		- tag 与 pvid 相同才转发
 - （2）Trunk 端口
 	- 从链路上收到一个 untagged 交换机会添加 pvid 的 tag，然后检查是否在允许通过列表再转发
 	- 链路上收到一个 tagged，检查是否在允许通过列表
