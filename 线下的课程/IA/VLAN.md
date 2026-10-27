@@ -25,3 +25,5 @@
 > 总结原则：无 tag 会打上 tag，然后查表，在允许内的与 pvid 相同的帧会剥离
 - （3）Hybrid 端口
 	- 除了要配置 PVID 外还要配置 untagged 列表和 tagged 列表
+	- 从链路收到：
+		- tag
