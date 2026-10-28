@@ -1,6 +1,12 @@
 {
 	"nodes":[
-		{"id":"2706dd309ea47a0e","x":-125,"y":435,"width":250,"height":60,"type":"text","text":""}
+		{"id":"2706dd309ea47a0e","x":-125,"y":435,"width":250,"height":60,"type":"text","text":""},
+		{"id":"9bc1935b1f2fb305","x":-125,"y":435,"width":250,"height":60,"type":"text","text":""},
+		{"id":"3dc03e0182ebf1c8","x":-125,"y":435,"width":250,"height":60,"type":"text","text":"我去"},
+		{"id":"15d78c0efd41c8f7","x":-125,"y":435,"width":250,"height":60,"type":"text","text":""},
+		{"id":"4f6851d6bd5a8e4c","x":-76,"y":624,"width":250,"height":60,"type":"text","text":""}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"be4832d8bc224f8e","fromNode":"15d78c0efd41c8f7","fromSide":"bottom","toNode":"4f6851d6bd5a8e4c","toSide":"top"}
+	]
 }
