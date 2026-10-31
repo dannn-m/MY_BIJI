@@ -10,4 +10,4 @@
 # 二类 LSA
 - link state DR 的接口 IP 地址
 - Network Mask：MA 网络的子网掩码
-- Attached Router：连接到该 MA 网络的路由器的 router－id（与该 DR 建立了邻接关系的邻居的 router－id，以及 DR 自己的 router－id）
+- Attached Router：连接到该 MA 网络的路由器的 router－id（与该 DR 建立了邻接关系的邻居的 router－id，以及 DR 自己的 router－id），如果有多台路由器接入该 ma 网络，则使用多个字段描述
