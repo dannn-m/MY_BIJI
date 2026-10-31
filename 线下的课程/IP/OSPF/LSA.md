@@ -8,7 +8,7 @@
 | TransNet：描述从本路由器到一个 Transit 网段（例如 MA 或者 NBMA 网段）的连接，属于拓扑信息 | DR 的接口 IP 地址                   | 宣告该 Router LSA 的路由器接口的 IP 地址 |
 | StubNet：描述从本路由器到一个 Stub 网段（例如 Loopback 接口）的连接，属于网段信息       | 宣告该 Router LSA 的路由器接口的网络 IP 地址 | 该 Stub 网络的网络掩码               |
 # 二类 LSA
-- link state DR 的接口 IP 地址
+- link state id：DR 的接口 IP 地址
 - Network Mask：MA 网络的子网掩码
 - Attached Router：连接到该 MA 网络的路由器的 router－id（与该 DR 建立了邻接关系的邻居的 router－id，以及 DR 自己的 router－id），如果有多台路由器接入该 ma 网络，则使用多个字段描述
 # SPF 算法
