@@ -3,5 +3,6 @@
 - 2.优选 Local_preference 属性值最大
 - 3，本地始发优于学到，其中手动聚合>自动聚合>network>import>从对等体学到的
 - 4.as_path
-- origin 属性 i>E>incomplete
-- med 最小
+- 5.origin 属性 i>E>incomplete
+- 6.med 最小
+- 7.EBGP 学到的
