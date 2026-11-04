@@ -1,2 +1,4 @@
 - 0.下一跳可达
-- 1.优选 preferred－Value
+- 1.优选 preferred－Value 属性值最大
+- 2.优选 Local_preference 属性值最大
+- 
