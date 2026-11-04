@@ -6,4 +6,6 @@
 - 5.origin 属性 i>E>incomplete
 - 6.med 最小
 - 7.EBGP 学到的优于 IBGP 学到
-- 8.到 Next_Hop 的 IGP
+- 8.到 Next_Hop 的 IGP 度量值最小的
+- 9.Cluster_list 最短的路由
+- 10.
