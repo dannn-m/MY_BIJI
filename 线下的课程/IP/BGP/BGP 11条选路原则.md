@@ -5,4 +5,5 @@
 - 4.as_path
 - 5.origin 属性 i>E>incomplete
 - 6.med 最小
-- 7.EBGP 学到的优于 
+- 7.EBGP 学到的优于 IBGP 学到
+- 8.到 Next_Hop 的 IGP
