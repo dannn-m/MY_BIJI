@@ -8,4 +8,5 @@
 - 7.EBGP 学到的优于 IBGP 学到
 - 8.到 Next_Hop 的 IGP 度量值最小的
 - 9.Cluster_list 最短的路由
-- 10.
+- 10.Router ID 最小的设备通告的路由
+- 11.具有最小 IP 得知
