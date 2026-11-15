@@ -17,4 +17,4 @@
 `trafic behavior name`
 3.创建流策略，并 banding 流分类与流行为
 `trafic policy name`
-classifier  `
+`classifier name behavior name`
