@@ -14,4 +14,5 @@
 `trafic classifiler name 【operater 「and｜or」】`
 缺省情况下，刘分类中各规则之间的关系为‘or’
 2.创建流行为：
-traffic
+`trafic behavior name`
+3.创建流策略，
