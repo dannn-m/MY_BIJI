@@ -1,1 +1,3 @@
-- MQC(modular )
+- MQC(modular qos command－line interface，模块化 Qos 命令行)：指通过将某类具有共同特征的数据流划分为一类，并为同一类数据流量提供  相同服务
+- 三要素：流分类、流行为和流策略
+- 流行为支持重定向报文，因此使用 MQC 可以实现 IP 单播策略路由
