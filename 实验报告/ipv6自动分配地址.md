@@ -23,5 +23,5 @@
 	- 接口视图
 		- dhcp sever *name*
 		- ipv nd other-flag 将 o 位置位 
-- 有状态
+- 有状态（只列出了对于无状态 dhcp 的）
 	- 
