@@ -22,5 +22,6 @@
 		- dns
 	- 接口视图
 		- dhcp sever *name*
+		- ipv nd auto 
 - 有状态
 	- 
