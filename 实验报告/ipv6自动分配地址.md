@@ -17,4 +17,5 @@
 	- 在接受无状态自动地址分配的端口配置 ipv add auto linklocal （global）
 - 无状态 dhcp
 	- 全局开启 DHCP 功能
-	- dhcpv pool name
+	- dhcpv pool *name* 
+		- 
