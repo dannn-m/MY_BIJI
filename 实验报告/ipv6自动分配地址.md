@@ -29,4 +29,4 @@
 	- 接口视图
 		- ipv nd manigement-flag ---将 m 位也置位
 - pd（前缀代理）
-	- 
+	- 在 pdsever 的 pool 视图
