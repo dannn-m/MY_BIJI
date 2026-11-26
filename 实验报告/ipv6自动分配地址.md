@@ -22,6 +22,6 @@
 		- dns
 	- 接口视图
 		- dhcp sever *name*
-		- ipv nd other-flag 
+		- ipv nd other-flag 将 o 位置位 
 - 有状态
 	- 
