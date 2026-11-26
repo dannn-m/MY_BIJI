@@ -25,4 +25,5 @@
 		- ipv nd other-flag 将 o 位置位 
 - 有状态（只列出了对于无状态 dhcp 的区别）
 	- 在 pool 视图下
-		- address prefix xxxx
+		- address prefix xxxx（分配的前缀列表）
+	- 接口s
