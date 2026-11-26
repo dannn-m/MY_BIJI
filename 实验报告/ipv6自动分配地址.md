@@ -13,4 +13,4 @@
 | 0   | 1   | 无状态 DHCP                 |
 | 1   | 1   | 有状态 DHCP                 |
 - SLAAC
-	- 在路由器开启 undo 
+	- 在路由器接口视图开启 undo ipv 6 nd ra halt（解除端口抑制）
