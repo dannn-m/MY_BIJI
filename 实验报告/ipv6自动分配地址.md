@@ -30,4 +30,4 @@
 		- ipv nd manigement-flag ---将 m 位也置位
 - pd（前缀代理）
 	- 在 pdsever 的 pool 视图
-		- prefix-delegates xxxx---配置分配给客户的前缀
+		- prefix-delegation xxxx---配置分配给客户的前缀
