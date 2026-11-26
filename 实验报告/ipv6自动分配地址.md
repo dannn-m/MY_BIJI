@@ -22,4 +22,5 @@
 		- dns
 	- 接口视图
 		- dhcp sever *name*
-- 有zhuan't
+- 有状态
+	- 
