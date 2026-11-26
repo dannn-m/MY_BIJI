@@ -18,6 +18,6 @@
 - 无状态 dhcp
 	- 全局开启 DHCP 功能
 	- dhcpv pool *name* 
-		- adress prefix xxxx
 		- exclude ..
 		- dns
+		- 接口视图
