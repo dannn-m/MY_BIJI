@@ -14,4 +14,4 @@
 | 1   | 1   | 有状态 DHCP                 |
 - SLAAC
 	- 在路由器接口视图开启 undo ipv 6 nd ra halt（解除端口抑制周期发送 ra）
-	- 在接受无状态自动地址分配的
+	- 在接受无状态自动地址分配的端口配置 ipv add auto 
